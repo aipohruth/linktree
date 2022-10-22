@@ -11,13 +11,12 @@ code {
     monospace, inter;
 }
 main{
-  background-color: #F4F5F7;
+  background-color: #ffffff;
 }
 section{
-  width: 1000px;
-  background-color:#F4F5F7;
-  height: 100vh;
-  padding-top: 80px;
+  max-width: 1000px;
+  background-color:#ffffff;
+  padding-top: 50px;
   margin: 0 auto;
   text-align: center;
 }
@@ -51,6 +50,60 @@ section{
   outline: none;
   border: 1px solid #EAECF0;
   background-color:#EAECF0;
+  border-radius:  5px;
 
+}
+.links a{
+  color: #101828;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.links a:hover{
+  color: black;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+}
+.icons img{
+  width: 20px;
+}
+.icon{
+  margin-left: 20px;
+}
+.footers{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footers img{
+  color: #000000;
+  width: 100px;
+}
+.footers p{
+  color: #667085;
+  font-size: 12px;
+}
+
+
+/*Media Query*/
+@media screen and (max-width: 550px){
+  section{
+    max-width: 400px;
+  }
+  .links button{
+    width: 90%;
+    padding: 20px 15px;
+  }
+  button a{
+    font-size: 14px;
+  }
+  .footers{
+    display: none;
+  }
 }
 
