@@ -13,12 +13,12 @@ const Link = () => {
       alt='Lisa' />
     </div>
     <h3 id='twitter'>Madame Lisa</h3>
-    <p id='slack'>Ruth Aipoh</p>
+    <p id='slack'>Melissa</p>
     <div className='links'>
         <button id='btn_zuri'><a href="https://twitter.com/M_e_l_y_sa">Twitter Link</a></button>
         <button id='btn_zuri'><a href="https://training.zuri.team/">Zuri Team</a></button>
         <button id='books'><a href="http://books.zuri.team">Zuri Books</a></button>
-        <button id='book_python'><a href="https://books.zuri.team/python-for-beginners?ref_id=melissa">Python Books</a></button>
+        <button id='book_python'><a href="https://books.zuri.team/python-for-beginners?ref_id=Melissa">Python Books</a></button>
         <button id='pitch'><a href="https://background.zuri.team">Background check for coders</a></button>
         <button id='book_design'><a href="https://books.zuri.team/design-rules">Design Books</a></button>
     </div>
