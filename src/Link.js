@@ -19,7 +19,7 @@ const Link = () => {
     <h3 id='twitter'>Madame Lisa</h3>
     <p id='slack'>aipohRuth</p>
     <div className='links'>
-        <button id='twitter_link'>Twitter Link</button>
+        <button id='twitter__link'>Twitter Link</button>
         <button id='btn__zuri'><a href="https://training.zuri.team/">Zuri Team</a></button>
         <button id='books'><a href="http://books.zuri.team">Zuri Books</a></button>
         <button id='book__python'><a href="https://books.zuri.team/python-for-beginners?ref_id=aipohRuth">Python Books</a></button>
