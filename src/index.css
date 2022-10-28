@@ -132,6 +132,7 @@ hr{
   .footers .inner-footer{
     text-align: left;
     display: block;
+    margin-left: 5px;
   }
 }
 
