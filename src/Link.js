@@ -12,7 +12,7 @@ const Link = () => {
       <img src={f5} className='mob' alt='icon'/>
       <img src={f6} className='web' alt='icon1'/>
     <div className='profile'>
-      <img id='profile_img' 
+      <img id='profile__img' 
       src='https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg' 
       alt='Lisa' />
     </div>
@@ -20,11 +20,11 @@ const Link = () => {
     <p id='slack'>aipohRuth</p>
     <div className='links'>
         <button id='twitter_link'>Twitter Link</button>
-        <button id='btn_zuri'><a href="https://training.zuri.team/">Zuri Team</a></button>
+        <button id='btn__zuri'><a href="https://training.zuri.team/">Zuri Team</a></button>
         <button id='books'><a href="http://books.zuri.team">Zuri Books</a></button>
-        <button id='book_python'><a href="https://books.zuri.team/python-for-beginners?ref_id=aipohRuth">Python Books</a></button>
+        <button id='book__python'><a href="https://books.zuri.team/python-for-beginners?ref_id=aipohRuth">Python Books</a></button>
         <button id='pitch'><a href="https://background.zuri.team">Background check for coders</a></button>
-        <button id='book_design'><a href="https://books.zuri.team/design-rules">Design Books</a></button>
+        <button id='book__design'><a href="https://books.zuri.team/design-rules">Design Books</a></button>
     </div>
     <div className="icons">
       <img src={f1}  alt='slack' />
