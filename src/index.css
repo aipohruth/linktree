@@ -132,9 +132,27 @@ hr{
 }
 .form{
   width: 100%;
+  color: #344054;
 }
 .form-control{
   margin: 20px 0px;
+}
+.form-controls{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.left, .right{
+  flex-basis: 48%;
+}
+
+input[type='text']{
+  width: 98%;
+  padding: 5px 0;
+  outline: none;
+  border: 1px solid #D0D5DD;
+  border-radius: 5px;
+  margin-top: 3px;
 }
 .form-control input{
   width: 100%;
@@ -143,21 +161,12 @@ hr{
   border-radius: 5px;
   margin-top: 3px;
 }
-
-input[type='text']{
-  width: 100%;
-  display: inline-block;
-  padding: 5px 13px;
-}
-label { 
-  width: 200px; 
-  float: left; 
-  margin: 0 20px 0 0;
+label{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 3px;
 }
 
-.second{
-  margin-left: 20px;
-}
 textarea, #btn__submit{
     width: 100%;
 }
@@ -169,6 +178,8 @@ textarea, #btn__submit{
 textarea{
  height: 80px;
  padding: 5px 0px;
+ border: 1px solid #D0D5DD;
+ border-radius: 5px;
 }
 .check{
   margin: 15px 0px;
@@ -185,10 +196,22 @@ textarea{
   cursor: pointer;
 }
 
-/*Media Query for contact*/
 
 
 
+/*input[type='text']{
+  width: 100%;
+  display: inline-block;
+  padding: 5px 13px;
+}
+label { 
+  width: 200px; 
+  float: left; 
+  margin: 0 20px 0 0;
+}
+
+.second{
+  margin-left: 20px;*/
 
 
 
@@ -203,7 +226,7 @@ textarea{
 /*Media Query*/
 @media screen and (max-width: 550px){
   section{
-    max-width: 400px;
+   max-width: 400px;
   }
   .mob{
     display: block;
@@ -230,27 +253,22 @@ textarea{
     margin-left: 8px;
   }
   .contact{
-    max-width: 400px;
     margin-right:20px;
     margin-left:20px;
+    
   }
-  .second{
-    margin-left: 0px;
-   }
-   .form-header h1{
-    margin-bottom: 20px;
-   }
-   .form-header p{
-    margin-bottom: 30px;
-   }
-   input[type='text']{
-    width: 100%;
-    display: block; 
+  .left, .right{
+    margin-top: 5px;
+    width: 102%;
   }
-  .form-control input{
-    width: 90%;
+  .form-controls{
+    flex-direction: column;
+    margin-bottom: -5px;
 }
-textarea, #btn__submit{
-  width: 90%;
+input[type='text']{
+  margin: 13px 0px;
+}  
+input{
+  margin: 10px 0px;
 }
 }
