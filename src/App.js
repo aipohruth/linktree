@@ -17,7 +17,7 @@ const App = () => {
 
       <section>
       <hr/>
-    <footer className='footers'>
+    <footer className='footers mini'>
       <div className="inner-footer">
       <h4>Zuri<span className='red-dot'></span>Internship</h4>
     <p>HNG Internship 9 Frontend Task</p>
