@@ -199,23 +199,6 @@ textarea{
 
 
 
-/*input[type='text']{
-  width: 100%;
-  display: inline-block;
-  padding: 5px 13px;
-}
-label { 
-  width: 200px; 
-  float: left; 
-  margin: 0 20px 0 0;
-}
-
-.second{
-  margin-left: 20px;*/
-
-
-
-
 
 
 
@@ -255,11 +238,12 @@ label {
   .contact{
     margin-right:20px;
     margin-left:20px;
+    width: 350px;
     
   }
   .left, .right{
     margin-top: 5px;
-    width: 102%;
+    width: 90%;
   }
   .form-controls{
     flex-direction: column;
@@ -267,8 +251,21 @@ label {
 }
 input[type='text']{
   margin: 13px 0px;
+  padding: 13px 0px;
 }  
 input{
   margin: 10px 0px;
+  
+}
+input[type='email']{
+  width: 90%;
+  padding: 13px 0px;
+}
+textarea, #btn__submit{
+  width: 90%;
+}
+.form button{
+  padding: 13px 0px;
 }
 }
+
