@@ -1,8 +1,6 @@
 import React from 'react'
 import f1 from './Assets/slacks.png'
 import f2 from './Assets/github.png'
-import f3 from './Assets/Vector.png'
-import f4 from './Assets/footer3.png'
 import f5 from './Assets/mob.png'
 import f6 from './Assets/web.png'
 
@@ -19,26 +17,18 @@ const Link = () => {
     <h3 id='twitter'>Madame Lisa</h3>
     <p id='slack'>aipohRuth</p>
     <div className='links'>
-        <button id='twitter__link'>Twitter Link</button>
+        <button id='twitter__link'><a href='https://twitter.com/M_e_l_y_sa'>Twitter Link</a></button>
         <button id='btn__zuri'><a href="https://training.zuri.team/">Zuri Team</a></button>
         <button id='books'><a href="http://books.zuri.team">Zuri Books</a></button>
         <button id='book__python'><a href="https://books.zuri.team/python-for-beginners?ref_id=aipohRuth">Python Books</a></button>
         <button id='pitch'><a href="https://background.zuri.team">Background check for coders</a></button>
         <button id='book__design'><a href="https://books.zuri.team/design-rules">Design Books</a></button>
+        <button id='contact'><a href="/contact">Contact Me</a></button>
     </div>
     <div className="icons">
       <img src={f1}  alt='slack' />
       <img src={f2} className='icon' alt='github' />
     </div>
-    
-<hr/>
-    <footer className='footers'>
-      <div className="inner-footer">
-      <img src={f3} alt='Zuri' />
-    <p>HNG Internship 9 Frontend Task</p>
-      <img src={f4} alt='Zuri' />
-      </div>
-    </footer>
     </section> 
   )
 }
