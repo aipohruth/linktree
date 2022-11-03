@@ -12,24 +12,24 @@ const Contact = () => {
           <div className="form-controls">
             <div className="left">
               <label>Firstname</label>
-              <input type='text' id='first_name'placeholder='Enter your first name'/>
+              <input type='text' id='first_name' required placeholder='Enter your first name'/>
             </div>
             <div className="right">
               <label>Lastname</label>
-              <input type='text' id='last_name' placeholder='Enter your last name' />
+              <input type='text' id='last_name' required placeholder='Enter your last name' />
             </div>
           </div>
 
         <div className="form-control">
             <label>Email</label>
-            <input type='email' id='email' placeholder='yourname@email.com'/>
+            <input type='email' id='email' required placeholder='yourname@email.com'/>
         </div>
         <label>Message</label>
         <textarea name="" id="message"  
         placeholder="Send a message and i'll reply as soon as possible..."></textarea>
 
         <div className="check">
-        <input type='checkbox' />
+        <input type='checkbox' required />
         <small>You agree to providing your data to aipohruth who may contact you</small>
         </div>
 
