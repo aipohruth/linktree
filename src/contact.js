@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 
 const Contact = () => {
   return (
@@ -25,7 +25,7 @@ const Contact = () => {
             <input type='email' id='email' required placeholder='yourname@email.com'/>
         </div>
         <label>Message</label>
-        <textarea name="" id="message"  
+        <textarea name="" id="message"  required
         placeholder="Send a message and i'll reply as soon as possible..."></textarea>
 
         <div className="check">
