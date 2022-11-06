@@ -50,7 +50,7 @@ section{
 #slack{
   display: none;
 }
-.links button{
+.links a{
   width: 900px;
   margin-top: 15px;
   padding: 15px 15px;
@@ -58,8 +58,10 @@ section{
   border: 1px solid #EAECF0;
   background-color:#EAECF0;
   border-radius:  5px;
-
+  display: inline-block;
 }
+
+
 .links a{
   color: #101828;
   font-size: 14px;
@@ -226,10 +228,11 @@ textarea{
   .web{
     display: none;
   }
-  .links button{
-    width: 90%;
+  .links a{
+    width: 80%;
     padding: 20px 15px;
   }
+ 
   button a{
     font-size: 14px;
     
